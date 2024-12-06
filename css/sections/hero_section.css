@@ -1,6 +1,6 @@
 .hero_section{
     height: 100vh;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%), url('./assets/ENSGTI-ext2.webp');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, hwb(0 0% 100% / 0) 50%), url('../../assets/ENSGTI-ext2.webp');
     background-position: center;
     background-size: cover;
     display: flex;
