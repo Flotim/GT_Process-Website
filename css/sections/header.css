@@ -88,13 +88,12 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
-    
+  
+
 .raccourci_nav a:hover{
     color: #792965;
 
 }   
-
-
 
 
 .raccourci_nav a::after {
@@ -158,11 +157,97 @@ nav{
     font-size: 2.5rem;   
 }
 
+.hamburger_menu{
+    display: none;
+    width: fit-content;
+
+    img{
+        width: 25px;
+    }
+}
+
+
+.mobilemenu{
+    display: none ;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    z-index: 1000;
+    transition: height 0.8s ease-in-out;
+}
+
+
+.mobilemenunav{
+    width:100%;
+    height: 100%;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10vh;
+        padding-top: 30vh;
+    }
+
+    li{
+        width: 100%;
+    }
+
+
+    a{
+        width: 100%;
+
+    }
+
+
+    a::after {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 25%;
+        bottom: -2rem; /* Décalage de la ligne par rapport au texte */
+        width: 50%; /* Longueur de la ligne */
+        height: 1px; /* Épaisseur de la ligne */
+        background-color: #792965 ; /* Couleur de la ligne */
+    }
+
+    a:hover::after {
+        width: 50%;
+    }
+
+    button{
+        margin-top: 10vh;
+    }
+}
+
+
+.closemenu{
+    position: absolute;
+    top: 20px;
+    right:20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+
+}
+
+
+.mobile_menu--open{
+    display: flex;
+    height: 100%;
+}
+
 
 @media(max-width:500px){
 
+    .social_media ul{
+        gap: 3vw;
+    }
+
     .social_media a{
-        font-size: 1.5rem;   
+        font-size: 1.5rem;
     }
 
     .logo img{
@@ -171,6 +256,12 @@ nav{
 
     header{
         height: 10vh;
+
+    }
+
+    .contact-header{
+        display: none;
+        
     }
     
 }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    overflow-x: none;
 
 }
 
@@ -12,7 +13,6 @@ body{
     background-color: white;
     height: 100%;
     width: 100%;
-    overflow-x: none;
 }
 
 

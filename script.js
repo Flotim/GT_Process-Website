@@ -42,7 +42,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.3 // Déclenche quand 20% de la section est visible
+    threshold: 0.2 // Déclenche quand 20% de la section est visible
   }
 );
 
@@ -50,5 +50,31 @@ const observer = new IntersectionObserver(
 sections.forEach(section => {
   observer.observe(section);
 });
+
+
+// Hamburger navbar
+
+const handleMobileMenu = () => {
+    const hamburgernav = document.getElementById('hamburger_menu');
+    const mobilemenu = document.getElementById('mobilemenu');
+    const closemenu = document.getElementById('closemenu');
+
+    const openMenu = () => {
+        mobilemenu.classList.add('mobile_menu--open')
+    }
+
+    const closeMenu = () => {
+        mobilemenu.classList.remove('mobile_menu--open')
+    }
+
+    hamburgernav.addEventListener('click',openMenu)
+    closemenu.addEventListener('click',closeMenu)
+
+}
+
+handleMobileMenu();
+
+
+
 
 
