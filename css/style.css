@@ -1,0 +1,35 @@
+@import url(global.css);
+@import url(sections/header.css);
+@import url(sections/hero_section.css);
+@import url(sections/section1.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Avenir'; /* Nom de la police que vous utiliserez dans CSS */
+    src: url('/Font/FontsFree-Net-1579-AvenirLTStd-Medium.ttf');
+    
+}
+
+:root{
+    --font-size:1.8rem
+    --font-size-text:1rem
+    --font-family:'Monteserrat'
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

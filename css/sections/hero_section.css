@@ -1,0 +1,191 @@
+.hero_section{
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 50%), url('/assets/ENSGTI-ext2.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    opacity: 0; /* Initialement invisible */
+    transition: opacity 1s ease-in-out;
+    
+    
+}
+
+.fadein{
+    opacity: 1; /* L'image devient visible */
+}
+
+
+.title{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    user-select: none;
+
+    height: 87vh;
+    perspective: 1000px;
+    padding-bottom: 5vh;
+}
+
+.big_title{
+    flex-shrink: 0;
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 11rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1vw;
+    opacity: 0; /* Initialement invisible */
+    transform: translateY(-500px); /* Commence en bas de l'écran */
+    transition: transform 0.8s ease-in-out, opacity 2s ease-out;/* Animation */
+
+}
+
+.zoomin {
+    opacity: 1;
+    transform: translateY(0); /* Se déplace à la position normale */
+}
+
+
+
+.middle_title{
+    flex-shrink: 0;
+    align-self: stretch;
+    color: #e5f2f7;
+    text-align: center;
+    font-family: Poppins;
+    font-size:4rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.4vw;
+    transform: translateX(-3000px); /* Commence en bas de l'écran */
+    transition: transform 0.8s ease-in-out;/* Animation */
+}
+
+.slidein{
+    transform: translateX(0); /* Se déplace à la position normale */
+}
+
+
+.little_title{
+    color: #FFF;
+    width: 70%;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: -0.1rem;
+}
+
+
+.contact2{
+    display: inline-block;
+    background-color: #CCCD00;
+    box-shadow: 1px 0px 13.645px 0px #CCCD00;
+    color: white;
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.8s ease; /* Ajoute une transition fluide */
+    cursor: pointer;
+    opacity: 0;
+    transition: transform 0.8s ease-in-out background-color 0.8s ease-in-out;/* Animation */
+}
+
+.contact2:hover {
+    background-color: #792965;
+    box-shadow: 1px 0px 13.645px 0px #792965;
+    transform: translateY(-4px);
+}
+
+.moveup{
+    opacity: 100%;
+
+}
+
+
+@media (max-width:1000px){
+
+    .big_title{
+        font-size: 9rem;
+
+    }
+
+    .middle_title{
+ 
+        font-size:3rem;
+    }
+
+    .little_title{
+        font-size: 1.3rem;
+    }
+
+
+
+}
+
+@media (max-width:800px){
+
+    .navlink{
+        display: none;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .big_title{
+        font-size: 6rem;
+    }
+
+}
+
+@media (max-width:500px){
+    .big_title{
+        font-size: 4rem;
+    }
+    
+    .middle_title{
+        font-size:2.5rem ;
+    }
+
+    .contact2{
+        display: inline-block;
+        background-color: #CCCD00;
+        box-shadow: 1px 0px 13.645px 0px #CCCD00;
+        color: white;
+        padding: 1.5rem 1.5rem;
+        margin-top: 2rem;
+        font-family: Montserrat, sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+    }
+        
+
+
+
+}
+
+@media (max-width:450px){
+
+
+
+    .middle_title{
+        font-size: 2rem;
+    }
+
+}
