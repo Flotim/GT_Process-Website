@@ -1,14 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 
 body{
-    font-family: Avenir , sans-serif;
+    font-family: 'Avenir' , sans-serif;
     margin: 0;
     padding: 0;
     background-color: white;
     height: 100%;
     width: 100%;
     overflow-x: none;
-  }
+}
+
+
+.visible2{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+section{
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    transform: translateY(100px);
+}
