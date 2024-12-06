@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: 'Avenir'; /* Nom de la police que vous utiliserez dans CSS */
-    src: url('/Font/FontsFree-Net-1579-AvenirLTStd-Medium.ttf');
+    src: url('../../Font/FontsFree-Net-1579-AvenirLTStd-Medium.ttf');
     
 }
 
