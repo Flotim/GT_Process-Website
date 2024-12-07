@@ -156,55 +156,16 @@
 
 
 
-
-
-.rect_violet{
-    position: absolute;
-    width: 50.75681rem;
-    height: 17.1875rem;
-    transform: rotate(-1.315deg);
-    flex-shrink: 0;
-    top: 29rem;
-    left: -9rem;
-}
-
-
-.rect_vert{
-    position: absolute;
-    width: 63.88919rem;
-    height: 17.1875rem;
-    transform: rotate(0.8deg);
-    flex-shrink: 0;
-    top: 25rem;
-    right: 50rem;
-}
-
-.rect_bleu{
-    position: absolute;
-    width: 87.665rem;
-    height: 20.61806rem;
-    transform: rotate(0.522deg);
-    top: 21rem;
-    left: 35rem;
-}
-
-.rectangles{
-    width: 111.47788rem;
-    height: 41.28588rem;
-    display: flex;
-    align-items: flex-end;
-    flex-shrink: 0;
-    bottom: 0;
-
-}
-
-
-@media(max-width:600px){
-
-
+@media(max-width:1000px){
     .section1{
         height: fit-content;
+        
     }
+
+
+}
+
+@media(max-width:600px){
 
 
     .section1__main{
