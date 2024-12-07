@@ -59,7 +59,6 @@ nav{
     justify-content: space-around;
     padding-right: 22px;
     flex-shrink: 0;
-  
 }
 
 .raccourci_nav li{
@@ -167,6 +166,8 @@ nav{
 
 .mobilemenu{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     right: -100%;
@@ -184,44 +185,10 @@ nav{
     flex-direction: column;
     justify-content: start;
 
-    ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        gap: 10vh;
-        padding-top: 30vh;
-    }
 
-    li{
-        width: 100%;
-    }
-
-
-    a{
-        width: 100%;
-
-    }
-
-
-    a::after {
-        content: "";
-        position: absolute;
-        display: block;
-        left: 25%;
-        bottom: -2rem; /* Décalage de la ligne par rapport au texte */
-        width: 50%; /* Longueur de la ligne */
-        height: 1px; /* Épaisseur de la ligne */
-        background-color: #792965 ; /* Couleur de la ligne */
-    }
-
-    a:hover::after {
-        width: 50%;
-    }
-
-    button{
-        margin-top: 10vh;
-    }
 }
+
+
 
 
 .closemenu{
@@ -240,6 +207,30 @@ nav{
     right: 0;
 }
 
+@media(max-width:800px){
+
+    .raccourci_nav{
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10vh;
+        padding-top: 30vh;
+
+    }
+
+    .raccourci_nav a::after{
+        content: "";
+        position: absolute;
+        display: block;
+        left: 25%;
+        bottom: -2rem; /* Décalage de la ligne par rapport au texte */
+        width: 50%; /* Longueur de la ligne */
+        height: 1px; /* Épaisseur de la ligne */
+        background-color: #792965 ; /* Couleur de la ligne */
+
+    }
+}
 
 @media(max-width:500px){
 
@@ -259,6 +250,7 @@ nav{
         height: 10vh;
 
     }
+
 
     .contact-header{
         display: none;

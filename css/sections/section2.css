@@ -15,8 +15,8 @@
     justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
-    padding-top: 7rem;
     flex-shrink: 0;
+    padding-top: 5vh;
     font-family:"Montserrat";
 
 }
@@ -48,11 +48,13 @@
         font-weight: 700;
         line-height: normal;
 
-        span{
-            color: #CCCD00;
-        }
+
 
     }
+}
+
+.span-GT{
+    color: #CCCD00;
 }
 
 .divider{
@@ -65,7 +67,7 @@
 .qui-sommes-nous{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap: 0.75rem;
     align-self: stretch;
 
@@ -78,10 +80,7 @@
         line-height: normal;
         align-self: stretch;
 
-        span{
-            color: #792965;
-            font-weight:bold;
-        }
+
     }
     p{
         text-align: justify;
@@ -90,7 +89,10 @@
     }
 }
 
-
+.span-nous{
+    color: #792965;
+    font-weight:bold;
+}
 
 
 .mot-du-prez-et-img{
@@ -139,16 +141,18 @@
         line-height: normal;
         align-self: stretch;
 
-        span{
-            color: #33B8E7;
-            font-weight: bold;
-        }
+
     
     }
     p{
         text-align: justify;
         line-height: 1.5rem;
     }
+}
+
+.span-président{
+    color: #33B8E7;
+    font-weight: bold;
 }
 
 
