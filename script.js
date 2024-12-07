@@ -54,26 +54,20 @@ sections.forEach(section => {
 
 // Hamburger navbar
 
-const handleMobileMenu = () => {
-    const hamburgernav = document.getElementById('hamburger_menu');
-    const mobilemenu = document.getElementById('mobilemenu');
-    const closemenu = document.getElementById('closemenu');
+// Sélection des éléments
+const hamburgerMenu = document.getElementById('hamburger_menu');
+const closeMenu = document.getElementById('closemenu');
+const mobileMenu = document.getElementById('mobilemenu');
 
-    const openMenu = () => {
-        mobilemenu.classList.add('mobile_menu--open')
-    }
+// Ouvrir le menu mobile
+hamburgerMenu.addEventListener('click', () => {
+    mobileMenu.classList.add('mobile_menu--open');
+});
 
-    const closeMenu = () => {
-        mobilemenu.classList.remove('mobile_menu--open')
-    }
-
-    hamburgernav.addEventListener('click',openMenu)
-    closemenu.addEventListener('click',closeMenu)
-
-}
-
-handleMobileMenu()
-
+// Fermer le menu mobile
+closeMenu.addEventListener('click', () => {
+    mobileMenu.classList.remove('mobile_menu--open');
+});
 
 
 

@@ -137,6 +137,10 @@
 
 @media (max-width:800px){
 
+    .raccourci_nav{
+        padding-right: 0;
+    }
+
     .navlink{
         display: none;
     }
