@@ -26,11 +26,12 @@
     gap: 5rem;
     
 
-    p{
-        text-align: justify;
-        line-height: 1.5rem;
-    }
 
+}
+
+.main__infoGtprocess p{
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
 .span-Gtprocess{
@@ -190,7 +191,7 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        gap: 5vh;
+        gap: 12vh;
 
         h2{
             text-align: center;

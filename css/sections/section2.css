@@ -1,7 +1,6 @@
 .section2{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(180deg, #FFF 0%, #cdcd0043 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,17 +39,15 @@
     align-self: stretch;
     gap: 5vh;
 
-    h2{
-        color: #000;
-        font-family: Montserrat;
-        font-size: 3.5rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
+}
 
-
-
-    }
+.equipe h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .span-GT{
@@ -71,22 +68,23 @@
     gap: 0.75rem;
     align-self: stretch;
 
-    h2{
-        color: #000;
-        font-family: Montserrat;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-self: stretch;
+}
 
 
-    }
-    p{
-        text-align: justify;
-        line-height: 1.5rem;
-        font-family:'Montserrat';
-    }
+.qui-sommes-nous h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+
+}
+.qui-sommes-nous p{
+    text-align: justify;
+    line-height: 1.5rem;
+    font-family:'Montserrat';
 }
 
 .span-nous{
@@ -132,22 +130,26 @@
     gap: 0.75rem;
     align-self: stretch;
 
-    h2{
-        color: #000;
-        font-family: Montserrat;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        align-self: stretch;
+
+}
 
 
-    
-    }
-    p{
-        text-align: justify;
-        line-height: 1.5rem;
-    }
+.mot-du-prez h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: stretch;
+
+
+
+}
+
+.mot-du-prez p{
+    text-align: justify;
+    line-height: 1.5rem;
 }
 
 .span-président{
@@ -185,9 +187,6 @@
         align-items: center;
         gap: 5vh;
     
-        h2{
-            font-size: 3rem;
-        }
 
         .br2{
             display: none;
@@ -195,16 +194,15 @@
         }
     }
 
+    .equipe h2{
+        font-size: 3rem;
+    }
+
 
     .qui-sommes-nous{
         display: flex;
         align-items: center;
         gap: 2rem;
-
-        h2{
-            text-align: center;
-
-        }
 
     }
 
@@ -225,19 +223,14 @@
         gap: 2rem;
         align-self: stretch;
 
-        h2{
-            color: #000;
-            font-family: Montserrat;
-            font-size: 2rem;
 
-            text-align: center;
+    }
 
-        
-        }
-        p{
-            text-align: justify;
-            line-height: 1.5rem;
-        }
+    .mot-du-prez h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 2rem;
+
     }
 
 
