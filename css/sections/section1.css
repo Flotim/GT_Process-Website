@@ -67,14 +67,15 @@
     padding-bottom: 10vh;
 
 
-    span{
-        font-weight:bold;
 
-        color: #33B8E7;
-    }
 
 }
 
+.span-activité{
+    font-weight:bold;
+
+    color: #33B8E7;
+}
 
 .title__activité{
     font-size: 2rem;
