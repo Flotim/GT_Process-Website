@@ -72,7 +72,7 @@ const handleMobileMenu = () => {
 
 }
 
-handleMobileMenu();
+handleMobileMenu()
 
 
 

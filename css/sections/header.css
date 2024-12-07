@@ -9,9 +9,8 @@ header{
     transition: opacity 1.6s ease, transform 1s ease;
 
     height: 13vh;
-    width: 100vw;
-    max-width: 100%;
-    overflow-x: hidden;
+    width: 100%;
+    overflow: hidden;
     display: flex;
     flex-shrink: 0;
     justify-content: space-around;
@@ -19,7 +18,6 @@ header{
 
     border-bottom: 1px solid #F5F5F5;
     background: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -174,7 +172,7 @@ nav{
     height: 0;
     background-color: white;
     z-index: 1000;
-    transition: height 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 
