@@ -112,7 +112,11 @@
         text-align: center;
         color: #792965;
     }
+    img{
+        height: 25px;
+    }
 }
+
 
 .liste__activitéGP{
     list-style: none;
@@ -133,6 +137,10 @@
     h3{
         text-align: center;
         color: #792965;
+    }
+
+    img{
+        height: 30px;
     }
 }
 

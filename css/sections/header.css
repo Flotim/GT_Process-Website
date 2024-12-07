@@ -18,6 +18,7 @@ header{
 
     border-bottom: 1px solid #F5F5F5;
     background: #FFF;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);;
 
 }
 
@@ -179,6 +180,9 @@ nav{
 .mobilemenunav{
     width:100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 
     ul{
         display: flex;
@@ -239,11 +243,11 @@ nav{
 
 @media(max-width:500px){
 
-    .social_media ul{
+    .social_media-header ul{
         gap: 3vw;
     }
 
-    .social_media a{
+    .social_media-header a{
         font-size: 1.5rem;
     }
 

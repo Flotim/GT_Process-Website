@@ -1,12 +1,148 @@
 .section2{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(to top, transparent 0%, #fff 100%), url('../../assets/ENSGTI-entree.webp');
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(180deg, #FFF 0%, #F5F5F5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-equipe{
+    display: flex;
+    width:  100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3.1875rem;
+    flex-shrink: 0;
+
+}
+
+.equipe-qui{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 5vh;
+
+    h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+        span{
+            color: #CCCD00;
+        }
+
+    }
+}
+
+.divider{
+
+    width: 20.43788rem;
+    height: 0.125rem;
+    background-color: #792965;
+}
+
+
+.qui-sommes-nous{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
-    position: relative
+    gap: 0.75rem;
+    align-self: stretch;
+
+    h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+
+        span{
+            color: #792965;
+            font-weight:bold;
+        }
+    }
+    p{
+        text-align: justify;
+        line-height: 1.5rem;
+    }
+}
+
+
+
+
+.mot-du-prez-et-img{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    align-self: stretch;
+}
+
+.img-equipe{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+
+}
+
+.img-equipe img {
+    flex: 1 0 0;
+    width: 45vw;
+    border-radius: 10%;
+
+}
+
+.mot-du-prez{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    align-self: stretch;
+
+    h2{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        align-self: stretch;
+
+        span{
+            color: #33B8E7;
+            font-weight: bold;
+        }
+    
+    }
+    p{
+        text-align: justify;
+        line-height: 1.5rem;
+    }
 }
