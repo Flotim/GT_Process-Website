@@ -1,4 +1,11 @@
 window.addEventListener('load', function() {
+  // Masquer le loader
+  document.getElementById('loader').style.display = 'none';
+  // Afficher le contenu de la page
+  document.getElementById('main-content').style.display='block';
+});
+
+window.addEventListener('load', function() {
     const header = document.querySelector('header');
     const big_title = document.querySelector('.big_title');
     const middle_title = document.querySelector('.middle_title');
@@ -8,6 +15,7 @@ window.addEventListener('load', function() {
     // Ajoute la classe 'visible' à la navbar dès que la page est chargée
     header.classList.add('visible');
     hero_section.classList.add('fadein');
+
     
     // Ajoute un délai pour l'animation du titre après la navbar
     setTimeout(function() {

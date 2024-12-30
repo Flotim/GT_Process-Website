@@ -17,6 +17,10 @@ body, html {
 
 }
 
+#main-content{
+    display: none;
+}
+
 p{
     font-size:var(--font-size-text);
 }
