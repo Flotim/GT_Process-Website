@@ -188,11 +188,10 @@
         align-items: center;
         gap: 5vh;
     
+    }
 
-        .br2{
-            display: none;
-            
-        }
+    .equipe .br2{
+        display: none;
     }
 
     .equipe h2{

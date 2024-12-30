@@ -167,7 +167,6 @@
         
     }
 
-
 }
 
 @media(max-width:600px){
@@ -186,6 +185,7 @@
         
     }
     
+
     .main__infoGtprocess{
         width: 90%;
         display: flex;
@@ -194,13 +194,16 @@
         align-items: center;
         gap: 30px;
 
-        h2{
-            text-align: center;
-        }
+    }
 
-        p{
-            padding-top: 7vh;
-        }
+    .main__infoGtprocess h2{
+        text-align: center;
+    }
+
+    .main__infoGtprocess p{
+        padding-top: 50px;
+
+
     }
 
     .title__Gtprocess::after{
