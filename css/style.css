@@ -13,10 +13,8 @@
 }
 
 :root{
-    --font-size:1.8rem
-    --font-size-text:1rem
-    --font-family:'Monteserrat'
-    
+    --font-size-text:1rem;
+    --font-family:'Monteserrat';
 
 }
 
